@@ -1,0 +1,77 @@
+.bgc{
+  width: 100%;
+  height: 100vh;
+  background-color: #0a0a0a;
+  position: relative;
+  overflow: hidden;
+}
+
+.wrapper{
+  font-family: 'poppins',sans-serif;
+}
+
+.title{
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+   
+}
+
+.back{
+    text-align: center;
+}
+
+.twrap{
+    border-collapse: collapse;
+    width: 100%;
+    color: black;
+   
+}
+
+.twrap td, .twrap th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  .twrap tr{
+    background-color: grey;
+   
+}
+
+
+  .twrap tr:hover {
+    background-color: #ddd;
+}
+
+  .twrap th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4ea217;
+  color: white;
+}
+
+
+.back a{
+  position: relative;
+  text-decoration: none;
+  color: #a0a0a0;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+}
+
+.back a::after{
+  content: "";
+  display: block;
+  background-color: #ff3c78;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+
+.back a:hover::after{
+  width: 100%;
+}
